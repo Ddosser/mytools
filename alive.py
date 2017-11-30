@@ -9,7 +9,7 @@ import time
 
 def main():
     cf = ConfigParser.ConfigParser()
-    cf.read("./scripts.conf")
+    cf.read("./script.conf")
 
     
     s = requests.Session()
